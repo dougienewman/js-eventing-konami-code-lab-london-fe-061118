@@ -23,4 +23,4 @@ let index = 0;
 console.log(body)
 }
 
-init()
+init(e)
