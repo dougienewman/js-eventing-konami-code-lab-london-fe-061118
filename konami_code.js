@@ -11,6 +11,7 @@ function init() {
 
   body.addEventListener("keydown",
     function(e) {
+      console.log(e)
       const key = parseInt(e.detail || e.which);
      
      console.log(code)
