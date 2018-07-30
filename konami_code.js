@@ -20,8 +20,6 @@ init()
 
 
 let index = 0;
-
-function onKeyDownHandler(e) {
   const key = parseInt(e.detail || e.which);
  
   if (key === code[index]) {
@@ -31,5 +29,7 @@ function onKeyDownHandler(e) {
       alert("Hurray!");
  
       index = 0;
+    }
+}
       
       
