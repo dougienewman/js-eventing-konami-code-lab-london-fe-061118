@@ -8,7 +8,7 @@ function init() {
 
 const body = document.querySelector("body")
 
-body.addEventListner("click",function(event) {
+body.addEventListener("click",function(event) {
 alert("I was clicked!")
 }
 )
