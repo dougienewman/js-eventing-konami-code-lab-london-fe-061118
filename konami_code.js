@@ -11,6 +11,9 @@ body.addEventListener("keydown",function(event) {
 alert("I was keydowned!");
 
 
+const alphabet = [65, 66, 67];
+
+
 }
 )
 console.log(body)
