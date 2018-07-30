@@ -23,8 +23,6 @@ function init() {
     }
   )
 
-  
-
   console.log(body);
 }
 
