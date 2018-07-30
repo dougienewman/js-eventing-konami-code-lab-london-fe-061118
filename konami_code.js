@@ -9,7 +9,7 @@ const body = document.querySelector("body")
 
 body.addEventListener("keydown",function(e) {
 alert("I was keydowned!");
-
+};
 
 let index = 0;
   const key = parseInt(e.detail || e.which);
@@ -22,9 +22,10 @@ let index = 0;
  
       index = 0;
     }
-}
+
     
 console.log(body)
+}
 }
 
 init(e)
