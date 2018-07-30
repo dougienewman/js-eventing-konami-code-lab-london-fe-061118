@@ -7,7 +7,8 @@ function init(e) {
 
 const body = document.querySelector("body")
 
-
+body.addEventListener("keydown",function(e) {
+alert("I was keydowned!");
 
 
 let index = 0;
