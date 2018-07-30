@@ -20,7 +20,7 @@ init()
 
 
 let index = 0;
-  const key = parseInt(e.detail || e.which);
+  const key = parseInt(event.detail || event.which);
  
   if (key === code[index]) {
     index++;
