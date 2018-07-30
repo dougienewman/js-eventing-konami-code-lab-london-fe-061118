@@ -6,11 +6,12 @@ function init() {
   // Write your JavaScript code inside the init() function
 
 
-const body = document.getElementById(‘.body’)
+const body = document.querySelector(‘body’)
 
 main.addEventListner(‘click’,function(event) {
 alert(‘I was clicked!’)
-
+}
+)
 
 
 
