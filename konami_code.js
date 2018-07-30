@@ -10,15 +10,26 @@ const body = document.querySelector("body")
 body.addEventListener("keydown",function(event) {
 alert("I was keydowned!");
 
-
-let index = 0;
-
-
-
-
 }
 )
 console.log(body)
 }
 
 init()
+
+
+
+let index = 0;
+
+function onKeyDownHandler(e) {
+  const key = parseInt(e.detail || e.which);
+ 
+  if (key === code[index]) {
+    index++;
+ 
+    if (index === code.length) {
+      alert("Hurray!");
+ 
+      index = 0;
+      
+      
