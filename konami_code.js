@@ -5,6 +5,14 @@ console.log(code)
 function init() {
   // Write your JavaScript code inside the init() function
 
+
+
+
+
+
+
+
+
 console.log  
   
 // Key codes for A, B, and C keys.
