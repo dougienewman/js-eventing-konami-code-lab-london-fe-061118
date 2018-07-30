@@ -7,6 +7,9 @@ function init(e) {
 
 const body = document.querySelector("body")
 
+
+
+
 let index = 0;
   const key = parseInt(e.detail || e.which);
  
