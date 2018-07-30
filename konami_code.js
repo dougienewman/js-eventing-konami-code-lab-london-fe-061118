@@ -5,14 +5,17 @@ console.log(code)
 function init() {
   // Write your JavaScript code inside the init() function
 
-
 const body = document.querySelector("body")
 
 body.addEventListener("click",function(event) {
 alert("I was clicked!")
 }
 )
-
-
-
 }
+
+
+
+
+
+
+
