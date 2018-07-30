@@ -14,6 +14,7 @@ alert("I was clicked!")
 }
 
 
+init()
 
 
 
