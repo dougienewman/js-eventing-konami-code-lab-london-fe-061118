@@ -13,6 +13,8 @@ function init() {
     function(e) {
       const key = parseInt(e.detail || e.which);
      
+     console.log(code)
+     
       if (key === code[index]) {
         index++;
       }
